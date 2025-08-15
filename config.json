@@ -1,0 +1,63 @@
+[
+	{
+		"mavenRepositoryType" : "Google",
+		"slnFile" : "generated/HolisticWare.sln",
+		"templates" : 
+		[
+			{
+				"templateFile": "source/Project.cshtml",
+				"outputFileRule" : "generated/{groupid}.{artifactid}/{groupid}.{artifactid}.csproj"
+			},
+			{
+				"templateFile": "source/Targets.cshtml",
+				"outputFileRule" : "generated/{groupid}.{artifactid}/{nugetid}.targets"
+			},
+			{
+				"templateFile": "source/Pom.cshtml",
+				"outputFileRule" : "generated/{groupid}.{artifactid}/dependencies.pom"
+			}
+		],
+		"artifacts" : 
+		[
+			{
+				"groupId": "com.google.ai.edge.localagents",
+				"artifactId": "localagents-rag",
+				"version": "0.1.0",
+				"nugetVersion": "0.1.0",
+				"nugetId": "HolisticWare.Google.AI.Edge.LocalAgents.RAG"
+			},
+			{
+				"groupId": "com.google.guava",
+				"artifactId": "guava",
+				"version": "33.4.0-android",
+				"nugetVersion": "33.4.0.1",
+				"nugetId": "Xamarin.Google.Guava",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.google.auto.value",
+				"artifactId": "auto-value",
+				"version": "1.11.0",
+				"nugetVersion": "1.11.0",
+				"nugetId": "HolisticWare.Google.AutoValue",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.google.auto.value",
+				"artifactId": "auto-value-annotations",
+				"version": "1.11.0",
+				"nugetVersion": "1.11.0.5",
+				"nugetId": "Xamarin.Google.AutoValue.Annotations",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.squareup.okhttp3",
+				"artifactId": "okhttp",
+				"version": "4.12.0",
+				"nugetVersion": "4.12.0.10",
+				"nugetId": "Square.OkHttp3",
+				"dependencyOnly": true
+			}
+		]
+	}
+]
