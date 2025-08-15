@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.ai.edge.localagents</groupId>
+  <artifactId>localagents-rag</artifactId>
+  <version>0.1.1</version>
+  <packaging>aar</packaging>
+  <name>Google AI Edge RAG</name>
+  <description>The Google AI Edge RAG library.</description>
+  <url>https://github.com/google-ai-edge/rag</url>
+  <inceptionYear>2024</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>The MediaPipe Authors</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.auto.value</groupId>
+      <artifactId>auto-value-annotations</artifactId>
+      <version>1.11.0</version>
+      <scope>compile</scope>
+      <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.google.auto.value</groupId>
+      <artifactId>auto-value</artifactId>
+      <version>1.11.0</version>
+      <scope>compile</scope>
+      <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>33.3.1-android</version>
+      <scope>compile</scope>
+      <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.12.0</version>
+      <scope>compile</scope>
+      <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20250107</version>
+      <scope>compile</scope>
+      <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.google.mediapipe</groupId>
+      <artifactId>tasks-genai</artifactId>
+      <version>0.10.23</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>

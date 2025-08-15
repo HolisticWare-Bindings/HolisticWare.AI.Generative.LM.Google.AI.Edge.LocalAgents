@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.ai.edge.localagents</groupId>
+  <artifactId>localagents-fc</artifactId>
+  <version>0.1.0</version>
+  <packaging>aar</packaging>
+  <name>Google AI Edge Function Calling</name>
+  <description>The Google AI Edge Function Calling library.</description>
+  <url>https://github.com/google-ai-edge/ai-edge-apis</url>
+  <inceptionYear>2025</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>The MediaPipe Authors</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.errorprone</groupId>
+      <artifactId>error_prone_annotations</artifactId>
+      <version>2.37.0</version>
+      <scope>compile</scope>
+      <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>33.3.1-android</version>
+      <scope>compile</scope>
+      <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20250107</version>
+      <scope>compile</scope>
+      <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.google.mediapipe</groupId>
+      <artifactId>tasks-genai</artifactId>
+      <version>0.10.24</version>
+      <scope>compile</scope>
+      <optional>false</optional>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,9 @@
+﻿<metadata>
+  <attr
+    path="/api/package[@name='']"
+    name="managedName"
+    >
+    HolisticWare.Google.AI.Edge.LocalAgents
+  </attr>
+  
+</metadata>

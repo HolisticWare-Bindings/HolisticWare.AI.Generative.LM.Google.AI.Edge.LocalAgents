@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <!--
+      Enable trim analyzers for Android class libraries.
+      To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/prepare-libraries-for-trimming
+    -->
+    <IsTrimmable>true</IsTrimmable>
+    <!--
+      NOTE: you can simply add .aar or .jar files in this directory to be included in the project.
+      To learn more, see: https://learn.microsoft.com/dotnet/maui/migration/android-binding-projects
+    -->
+  </PropertyGroup>
+  <PropertyGroup>
+    <VersionPrefix>0.1.1</VersionPrefix>
+    <!--
+    VersionSuffix - For debugging and local nuget feed 
+    <VersionSuffix>alpha-$([System.DateTime]::Now.ToString('yyyyMMddHHmm'))</VersionSuffix>
+    -->        
+    <PackageVersion>$(Version)</PackageVersion>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Google.AutoValue.Annotations" Version="1.11.0.7" />
+    <PackageReference Include="HolisticWare.Google.AutoValue" Version="1.11.0" />
+    <PackageReference Include="Xamarin.Google.Guava" Version="33.4.8.2" />
+    <PackageReference Include="Square.OkHttp3" Version="4.12.0.10" />
+    <PackageReference Include="HolisticWare.DotNetAndroid.Bindings.JSON.JSON" Version="2025.5.17" />
+    <PackageReference Include="HolisticWare.Google.MediaPipe.Tasks.GenAI" Version="0.10.24" />
+  </ItemGroup>
+</Project>
